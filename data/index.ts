@@ -1,3 +1,4 @@
+import nextConfig from '../next.config.mjs';
 export const navItems = [
 	{ name: 'About', link: '#about' },
 	{ name: 'Projects', link: '#projects' },
@@ -74,7 +75,7 @@ export const projects = [
 		id: 1,
 		title: 'Rahma Al-Wadhahi - Personal Profile',
 		des: 'This website showcases the personal and professional profile of Rahma Al-Wadhahi. It includes sections on her educational background, professional experience, skills, projects, and contact information. The site is designed to highlight her expertise and accomplishments in a user-friendly and visually appealing manner.',
-		img: '/p1.svg',
+		img: `${nextConfig.basePath}/p1.svg`,
 		iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
 		link: 'https://rahma-alwadhahi.github.io/profile/',
 	},
@@ -82,8 +83,14 @@ export const projects = [
 		id: 2,
 		title: 'Rahma Al-Wadhahi - Personal Blog',
 		des: 'This personal blog by Rahma Al-Wadhahi features a variety of articles focused on technology and its impact on different aspects of life, particularly the workplace. It includes sections like Home, About, Blog, and Contact, and provides readers with insightful posts and updates in an engaging format. The blog is designed to share knowledge, experiences, and reflections on technological advancements and their broader implications.',
-		img: '/p2.svg',
-		iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/stream.svg', '/c.svg'],
+		img: `${nextConfig.basePath}/p2.svg`,
+		iconLists: [
+			`${nextConfig.basePath}/next.svg`,
+			`${nextConfig.basePath}/tail.svg`,
+			`${nextConfig.basePath}/ts.svg`,
+			`${nextConfig.basePath}/stream.svg`,
+			`${nextConfig.basePath}/c.svg`,
+		],
 		link: 'https://rahma-alwadhahi.github.io/personal-blog-demo/',
 	},
 ];
@@ -125,32 +132,32 @@ export const companies = [
 	{
 		id: 1,
 		name: 'cloudinary',
-		img: '/cloud.svg',
-		nameImg: '/cloudName.svg',
+		img: `${nextConfig.basePath}/cloud.svg`,
+		nameImg: `${nextConfig.basePath}/cloudName.svg`,
 	},
 	{
 		id: 2,
 		name: 'appwrite',
-		img: '/app.svg',
-		nameImg: '/appName.svg',
+		img: `${nextConfig.basePath}/app.svg`,
+		nameImg: `${nextConfig.basePath}/appName.svg`,
 	},
 	{
 		id: 3,
 		name: 'HOSTINGER',
-		img: '/host.svg',
-		nameImg: '/hostName.svg',
+		img: `${nextConfig.basePath}/host.svg`,
+		nameImg: `${nextConfig.basePath}/hostName.svg`,
 	},
 	{
 		id: 4,
 		name: 'stream',
-		img: '/s.svg',
-		nameImg: '/streamName.svg',
+		img: `${nextConfig.basePath}/s.svg`,
+		nameImg: `${nextConfig.basePath}/streamName.svg`,
 	},
 	{
 		id: 5,
 		name: 'docker.',
-		img: '/dock.svg',
-		nameImg: '/dockerName.svg',
+		img: `${nextConfig.basePath}/dock.svg`,
+		nameImg: `${nextConfig.basePath}/dockerName.svg`,
 	},
 ];
 
@@ -160,43 +167,43 @@ export const workExperience = [
 		title: 'Freelance Frontend Web Developer',
 		desc: 'Assisted in the development of a web-based platform using React.js, enhancing interactivity.',
 		className: 'md:col-span-2',
-		thumbnail: '/exp1.svg',
+		thumbnail: `${nextConfig.basePath}/exp1.svg`,
 	},
 	{
 		id: 2,
 		title: 'Mobile App Developer',
 		desc: 'Designed and developed mobile app for both iOS & Android platforms using Flutter as well as native iOS.',
 		className: 'md:col-span-2', // change to md:col-span-2
-		thumbnail: '/exp2.svg',
+		thumbnail: `${nextConfig.basePath}/exp2.svg`,
 	},
 	{
 		id: 3,
 		title: 'Freelance App Dev Project',
 		desc: 'Led the dev of a mobile app for a client, from initial concept to deployment on app stores.',
 		className: 'md:col-span-2', // change to md:col-span-2
-		thumbnail: '/exp3.svg',
+		thumbnail: `${nextConfig.basePath}/exp3.svg`,
 	},
 	{
 		id: 4,
 		title: 'Mobile iOS native Developer Intern',
 		desc: 'Developed and maintained mobile applications for both iPhone and iPad users.',
 		className: 'md:col-span-2',
-		thumbnail: '/exp4.svg',
+		thumbnail: `${nextConfig.basePath}/exp4.svg`,
 	},
 ];
 
 export const socialMedia = [
 	{
 		id: 1,
-		img: '/git.svg',
+		img: `${nextConfig.basePath}/git.svg`,
 	},
 	{
 		id: 2,
-		img: '/twit.svg',
+		img: `${nextConfig.basePath}/twit.svg`,
 	},
 	{
 		id: 3,
-		img: '/link.svg',
+		img: `${nextConfig.basePath}/link.svg`,
 	},
 ];
 
