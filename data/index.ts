@@ -76,13 +76,7 @@ export const projects = [
 		title: 'Rahma Al-Wadhahi - Personal Profile',
 		des: 'This website showcases the personal and professional profile of Rahma Al-Wadhahi. It includes sections on her educational background, professional experience, skills, projects, and contact information. The site is designed to highlight her expertise and accomplishments in a user-friendly and visually appealing manner.',
 		img: `${nextConfig.basePath}/p1.svg`,
-		iconLists: [
-			`${nextConfig.basePath}/re.svg`,
-			`${nextConfig.basePath}/tail.svg`,
-			`${nextConfig.basePath}/ts.svg`,
-			`${nextConfig.basePath}/three.svg`,
-			`${nextConfig.basePath}/fm.svg`,
-		],
+		iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
 		link: 'https://rahma-alwadhahi.github.io/profile/',
 	},
 	{
@@ -90,13 +84,7 @@ export const projects = [
 		title: 'Rahma Al-Wadhahi - Personal Blog',
 		des: 'This personal blog by Rahma Al-Wadhahi features a variety of articles focused on technology and its impact on different aspects of life, particularly the workplace. It includes sections like Home, About, Blog, and Contact, and provides readers with insightful posts and updates in an engaging format. The blog is designed to share knowledge, experiences, and reflections on technological advancements and their broader implications.',
 		img: `${nextConfig.basePath}/p2.svg`,
-		iconLists: [
-			`${nextConfig.basePath}/next.svg`,
-			`${nextConfig.basePath}/tail.svg`,
-			`${nextConfig.basePath}/ts.svg`,
-			`${nextConfig.basePath}/stream.svg`,
-			`${nextConfig.basePath}/c.svg`,
-		],
+		iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/stream.svg', '/c.svg'],
 		link: 'https://rahma-alwadhahi.github.io/personal-blog-demo/',
 	},
 ];
