@@ -14,7 +14,7 @@ export const gridItems = [
 		className: 'lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]',
 		imgClassName: 'w-full h-full',
 		titleClassName: 'justify-end',
-		img: '/b1.svg',
+		img: `${nextConfig.basePath}/b1.svg`,
 		spareImg: '',
 	},
 	{
@@ -44,8 +44,8 @@ export const gridItems = [
 		className: 'lg:col-span-2 md:col-span-3 md:row-span-1',
 		imgClassName: '',
 		titleClassName: 'justify-start',
-		img: '/grid.svg',
-		spareImg: '/b4.svg',
+		img: `${nextConfig.basePath}/grid.svg`,
+		spareImg: `${nextConfig.basePath}/b4.svg`,
 	},
 
 	{
@@ -55,8 +55,8 @@ export const gridItems = [
 		className: 'md:col-span-3 md:row-span-2',
 		imgClassName: 'absolute right-0 bottom-0 md:w-96 w-60',
 		titleClassName: 'justify-center md:justify-start lg:justify-center',
-		img: '/b5.svg',
-		spareImg: '/grid.svg',
+		img: `${nextConfig.basePath}/b5.svg`,
+		spareImg: `${nextConfig.basePath}/grid.svg`,
 	},
 	{
 		id: 6,
@@ -76,7 +76,13 @@ export const projects = [
 		title: 'Rahma Al-Wadhahi - Personal Profile',
 		des: 'This website showcases the personal and professional profile of Rahma Al-Wadhahi. It includes sections on her educational background, professional experience, skills, projects, and contact information. The site is designed to highlight her expertise and accomplishments in a user-friendly and visually appealing manner.',
 		img: `${nextConfig.basePath}/p1.svg`,
-		iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
+		iconLists: [
+			`${nextConfig.basePath}/re.svg`,
+			`${nextConfig.basePath}/tail.svg`,
+			`${nextConfig.basePath}/ts.svg`,
+			`${nextConfig.basePath}/three.svg`,
+			`${nextConfig.basePath}/fm.svg`,
+		],
 		link: 'https://rahma-alwadhahi.github.io/profile/',
 	},
 	{
