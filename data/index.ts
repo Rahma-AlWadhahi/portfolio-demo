@@ -190,14 +190,17 @@ export const socialMedia = [
 	{
 		id: 1,
 		img: `${nextConfig.basePath}/git.svg`,
+		url: `https://github.com/Rahma-AlWadhahi`,
 	},
 	{
 		id: 2,
 		img: `${nextConfig.basePath}/twit.svg`,
+		url: `https://twitter.com/Rahma_AlWadhahi`,
 	},
 	{
 		id: 3,
 		img: `${nextConfig.basePath}/link.svg`,
+		url: `https://www.linkedin.com/in/rahma-alwadhahi`,
 	},
 ];
 
